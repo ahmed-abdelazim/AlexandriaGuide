@@ -5,14 +5,13 @@ import android.util.Log;
 public class Location {
 
 
-
+    private static final int NO_IMAGE_PROVIDED = -1;
     private String name;
     private String description;
     private String address;
     private String phone;
     private String schedule;
     private String price;
-    private static final int NO_IMAGE_PROVIDED = -1;
     private int imageResourceId = NO_IMAGE_PROVIDED;
 
     public Location(String name, String description, String address, String phone, String schedule,
@@ -58,24 +57,24 @@ public class Location {
         return imageResourceId;
     }
 
-    public boolean hasImage(){
-        Log.v("hasImage", "word has image: "+ (imageResourceId != NO_IMAGE_PROVIDED));
+    public boolean hasImage() {
+        Log.v("hasImage", "word has image: " + (imageResourceId != NO_IMAGE_PROVIDED));
         return imageResourceId != NO_IMAGE_PROVIDED;
     }
 
-    public boolean hasPrice(){
+    public boolean hasPrice() {
         return getPrice() != null;
     }
 
-    public boolean hasPhone(){
+    public boolean hasPhone() {
         return getPhone() != null;
     }
 
-    public boolean hasAddress(){
+    public boolean hasAddress() {
         return getAddress() != null;
     }
 
-    public boolean hasSchedule(){
+    public boolean hasSchedule() {
         return getSchedule() != null;
     }
 
@@ -87,8 +86,7 @@ public class Location {
                 getPhone() + "\n" +
                 getPrice() + "\n" +
                 getSchedule() + "\n" +
-                getImageResourceId()
-                ;
+                getImageResourceId();
 
         return output;
     }

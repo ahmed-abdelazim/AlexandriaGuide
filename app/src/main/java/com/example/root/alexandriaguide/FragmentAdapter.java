@@ -21,7 +21,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             return new SightsFragment();
         } else if (position == 1) {
             return new FoodFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new ShopsFragment();
         } else {
             return new InfoFragment();

@@ -23,7 +23,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         final Location currentLocation = getItem(position);
         View listItemView = convertView;
 
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -49,32 +49,32 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         ImageView photoLocationImageView = (ImageView) listItemView.findViewById(R.id.photoImageView);
 
-        if (currentLocation.hasImage()){
+        if (currentLocation.hasImage()) {
             photoLocationImageView.setImageResource(currentLocation.getImageResourceId());
             photoLocationImageView.setVisibility(View.VISIBLE);
         } else {
             photoLocationImageView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasPrice()){
+        if (currentLocation.hasPrice()) {
             priceLocationTextView.setVisibility(View.VISIBLE);
         } else {
             priceLocationTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasSchedule()){
+        if (currentLocation.hasSchedule()) {
             scheduleLocationTextView.setVisibility(View.VISIBLE);
         } else {
             scheduleLocationTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasAddress()){
+        if (currentLocation.hasAddress()) {
             addressLocationTextView.setVisibility(View.VISIBLE);
         } else {
             addressLocationTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasPhone()){
+        if (currentLocation.hasPhone()) {
             phoneLocationTextView.setVisibility(View.VISIBLE);
         } else {
             phoneLocationTextView.setVisibility(View.GONE);

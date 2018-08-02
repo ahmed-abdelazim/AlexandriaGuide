@@ -19,9 +19,9 @@ import java.util.List;
 public class FoodFragment extends Fragment {
 
 
-   // public FoodFragment() {
-        // Required empty public constructor
-   // }
+    // public FoodFragment() {
+    // Required empty public constructor
+    // }
     public static void initFoodsList(List<Location> list, Context context) {
 
         list.add(new Location(
