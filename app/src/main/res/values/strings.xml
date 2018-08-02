@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alexandria Guide</string>
+
+    <string name="category_sights">Sights</string>
+    <string name="category_info">Transport</string>
+    <string name="category_shops">Shops</string>
+    <string name="category_food">Food</string>
+
+</resources>
