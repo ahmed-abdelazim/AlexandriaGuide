@@ -6,4 +6,57 @@
     <string name="category_shops">Shops</string>
     <string name="category_food">Food</string>
 
+    <!--Shops-->
+    <string name="shop_name_Queen_Home">Queen Home</string>
+    <string name="shop_description_Queen_Home">Cermics in Egypt</string>
+
+    <string name="shop_name_EL_SHENNAWY_MOBILES">EL SHENNAWY MOBILES</string>
+    <string name="shop_description_EL_SHENNAWY_MOBILES">An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).</string>
+
+    <string name="shop_name_Select_Mobiles">Select Mobiles</string>
+    <string name="shop_description_Select_Mobiles"></string>
+
+
+    <!--Transport info-->
+    <string name="info_title_Misr">Misr Train Station</string>
+    <string name="info_desc_Misr">The city\'s main train terminal, Mahattat Misr, is about 1km south of Midan Ramla. If you are arriving in Alexandria and going to the city centre around Midan Saad Zaghloul make sure you stay on until this stop.</string>
+
+    <string name="info_title_sidi">Sidi Gaber Train Station</string>
+    <string name="info_desc_sidi">Mahattat Sidi Gaber train station serves the eastern suburbs. Trains from Cairo stop at Sidi Gaber before Mahattat Misr station, and most locals get off here</string>
+
+
+    <!--Food-->
+    <string name="food_title_balbaa">Balba Village</string>
+    <string name="food_desc_balbaa"></string>
+    <string name="food_address_balbaa">34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate</string>
+    <string name="food_phone_balbaa">035546675</string>
+    <string name="food_sched_balbaa">9AM to 2AM</string>
+    <string name="food_price_balbaa">$</string>
+
+    <string name="food_title_wahat">Wahat Hkattab</string>
+    <string name="food_desc_wahat"></string>
+    <string name="food_address_wahat">34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate</string>
+    <string name="food_phone_wahat">035546675</string>
+    <string name="food_sched_wahat">9AM to 2AM</string>
+    <string name="food_price_wahat">$</string>
+
+    <string name="food_title_hosny">Hosny</string>
+    <string name="food_desc_hosny"></string>
+    <string name="food_address_hosny">34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate</string>
+    <string name="food_phone_hosny">01002987678</string>
+    <string name="food_sched_hosny">9AM to 2AM</string>
+    <string name="food_price_hosny">$$$</string>
+
+
+    <!--sights-->
+    <string name="sights_title_king">King Farouk Palace</string>
+    <string name="sights_desc_king">This sprawling property was the summer home of controversial King Farouk who assumed power at the age of 16 in 1936.</string>
+
+    <string name="sights_title_kom">Catacombs of Kom el Shoqafa</string>
+    <string name="sights_desc_kom">An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).</string>
+
+    <string name="sights_title_qayet">Fort Qaitbey</string>
+    <string name="sights_desc_qayet">Resembling an imposing castle fortress, this citadel was built in the 1480s by Sultan Qaitbey on the site of the Pharos Lighthouse, to protect the city from the crusaders who used to attack the city by sea.</string>
+
+
 </resources>

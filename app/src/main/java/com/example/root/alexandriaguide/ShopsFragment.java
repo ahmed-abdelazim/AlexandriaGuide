@@ -22,8 +22,8 @@ public class ShopsFragment extends Fragment {
     public static void initShopsList(List<Location> list, Context context) {
 
         list.add(new Location(
-                "Queen Home",
-                "One of top Ceramic and Porcelain providers in Egypt.",
+                context.getString(R.string.shop_name_Queen_Home),
+                context.getString(R.string.shop_description_Queen_Home),
                 null,
                 null,
                 null,
@@ -32,8 +32,8 @@ public class ShopsFragment extends Fragment {
         ));
 
         list.add(new Location(
-                "EL SHENNAWY MOBILES",
-                "An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).",
+                context.getString(R.string.shop_name_EL_SHENNAWY_MOBILES),
+                context.getString(R.string.shop_description_EL_SHENNAWY_MOBILES),
                 null,
                 null,
                 null,
@@ -44,8 +44,8 @@ public class ShopsFragment extends Fragment {
 
 
         list.add(new Location(
-                "Select Mobiles",
-                "Select Company was established on January 2002 with its first store at Luran Alexandria.",
+                context.getString(R.string.shop_name_Select_Mobiles),
+                context.getString(R.string.shop_description_Select_Mobiles),
                 null,
                 null,
                 null,

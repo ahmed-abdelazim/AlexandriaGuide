@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private Context context;
+    private int mFragmentsCount = 4;
 
     public FragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -30,7 +31,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return mFragmentsCount;
     }
 
     @Override

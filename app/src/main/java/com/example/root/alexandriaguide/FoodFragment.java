@@ -25,44 +25,35 @@ public class FoodFragment extends Fragment {
     public static void initFoodsList(List<Location> list, Context context) {
 
         list.add(new Location(
-                "Balba Village",
-                "fresh meet and seafood , very tasty .the place is clean and organized, the stuff is so helpful and friendly",
-                "34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate",
-                "035546675",
-                "9AM to 2AM",
-                "$",
+                context.getString(R.string.food_title_balbaa),
+                context.getString(R.string.food_desc_balbaa),
+                context.getString(R.string.food_address_balbaa),
+                context.getString(R.string.food_phone_balbaa),
+                context.getString(R.string.food_sched_balbaa),
+                context.getString(R.string.food_price_balbaa),
                 R.drawable.balbaa
         ));
 
         list.add(new Location(
-                "Wahat Khattab",
-                "fresh meet and seafood , very tasty .the place is clean and organized, the stuff is so helpful and friendly",
-                "34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate",
-                "035546675",
-                "9AM to 2AM",
-                "$$$",
+                context.getString(R.string.food_title_wahat),
+                context.getString(R.string.food_desc_wahat),
+                context.getString(R.string.food_address_wahat),
+                context.getString(R.string.food_phone_wahat),
+                context.getString(R.string.food_sched_wahat),
+                context.getString(R.string.food_price_wahat),
                 R.drawable.khattab
         ));
 
         list.add(new Location(
-                "Hosny",
-                "fresh meet and seafood , very tasty .the place is clean and organized, the stuff is so helpful and friendly",
-                "34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate",
-                "035546675",
-                "9AM to 2AM",
-                "$",
+                context.getString(R.string.food_title_hosny),
+                context.getString(R.string.food_desc_hosny),
+                context.getString(R.string.food_address_hosny),
+                context.getString(R.string.food_phone_hosny),
+                context.getString(R.string.food_sched_hosny),
+                context.getString(R.string.food_price_hosny),
                 R.drawable.hosny
         ));
 
-        list.add(new Location(
-                "Balba Village",
-                "fresh meet and seafood , very tasty .the place is clean and organized, the stuff is so helpful and friendly",
-                "34-156 Al Sagh Mohamed Abd Al Salam, Sidi Beshr Qebli, Qism El-Montaza, Alexandria Governorate",
-                "035546675",
-                "9AM to 2AM",
-                "$",
-                R.drawable.balbaa
-        ));
 
     }
 

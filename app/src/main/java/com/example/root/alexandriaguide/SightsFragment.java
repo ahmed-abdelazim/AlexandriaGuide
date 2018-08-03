@@ -21,8 +21,8 @@ public class SightsFragment extends Fragment {
     public static void initSightsList(List<Location> list, Context context) {
 
         list.add(new Location(
-                "King Farouk Palace",
-                "This sprawling property was the summer home of controversial King Farouk who assumed power at the age of 16 in 1936.",
+                context.getString(R.string.sights_title_king),
+                context.getString(R.string.sights_desc_king),
                 null,
                 null,
                 null,
@@ -31,8 +31,8 @@ public class SightsFragment extends Fragment {
         ));
 
         list.add(new Location(
-                "Catacombs of Kom el Shoqafa",
-                "An ancient circular staircase leads down into these tombs that were tunneled into the bedrock during the age of the Antonine emporers (2nd century AD).",
+                context.getString(R.string.sights_title_kom),
+                context.getString(R.string.sights_desc_kom),
                 null,
                 null,
                 null,
@@ -43,8 +43,8 @@ public class SightsFragment extends Fragment {
 
 
         list.add(new Location(
-                "Fort Qaitbey",
-                "Resembling an imposing castle fortress, this citadel was built in the 1480s by Sultan Qaitbey on the site of the Pharos Lighthouse, to protect the city from the crusaders who used to attack the city by sea.",
+                context.getString(R.string.sights_title_qayet),
+                context.getString(R.string.sights_desc_qayet),
                 null,
                 null,
                 null,

@@ -21,9 +21,10 @@ public class InfoFragment extends Fragment {
 
     public static void initTransportList(List<Location> list, Context context) {
 
+
         list.add(new Location(
-                "Misr Train Station",
-                "The city's main train terminal, Mahattat Misr, is about 1km south of Midan Ramla. If you're arriving in Alexandria and going to the city centre around Midan Saad Zaghloul, make sure you stay on until this stop.",
+                context.getString(R.string.info_title_sidi),
+                context.getString(R.string.info_desc_sidi),
                 null,
                 null,
                 null,
@@ -32,29 +33,8 @@ public class InfoFragment extends Fragment {
         ));
 
         list.add(new Location(
-                "Sidi Gaber Train Station",
-                "Mahattat Sidi Gaber train station serves the eastern suburbs. Trains from Cairo stop at Sidi Gaber before Mahattat Misr station, and most locals get off here",
-                null,
-                null,
-                null,
-                null,
-                -1
-        ));
-
-
-        list.add(new Location(
-                "Misr Train Station",
-                "The city's main train terminal, Mahattat Misr, is about 1km south of Midan Ramla. If you're arriving in Alexandria and going to the city centre around Midan Saad Zaghloul, make sure you stay on until this stop.",
-                null,
-                null,
-                null,
-                null,
-                -1
-        ));
-
-        list.add(new Location(
-                "Sidi Gaber Train Station",
-                "Mahattat Sidi Gaber train station serves the eastern suburbs. Trains from Cairo stop at Sidi Gaber before Mahattat Misr station, and most locals get off here",
+                context.getString(R.string.info_title_Misr),
+                context.getString(R.string.info_desc_Misr),
                 null,
                 null,
                 null,
@@ -64,8 +44,8 @@ public class InfoFragment extends Fragment {
 
 
         list.add(new Location(
-                "Misr Train Station",
-                "The city's main train terminal, Mahattat Misr, is about 1km south of Midan Ramla. If you're arriving in Alexandria and going to the city centre around Midan Saad Zaghloul, make sure you stay on until this stop.",
+                context.getString(R.string.info_title_sidi),
+                context.getString(R.string.info_desc_sidi),
                 null,
                 null,
                 null,
@@ -74,8 +54,8 @@ public class InfoFragment extends Fragment {
         ));
 
         list.add(new Location(
-                "Sidi Gaber Train Station",
-                "Mahattat Sidi Gaber train station serves the eastern suburbs. Trains from Cairo stop at Sidi Gaber before Mahattat Misr station, and most locals get off here",
+                context.getString(R.string.info_title_Misr),
+                context.getString(R.string.info_desc_Misr),
                 null,
                 null,
                 null,
